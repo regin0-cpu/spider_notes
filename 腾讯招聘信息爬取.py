@@ -6,7 +6,7 @@ from threading import Thread, Lock
 import time
 import random
 from queue import Queue
-from day01.useragents import ua_list
+from useragents import ua_list
 import ssl
 
 class TencentSpider(object):
