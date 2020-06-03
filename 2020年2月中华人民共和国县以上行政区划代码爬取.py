@@ -19,7 +19,6 @@ class Zp(object):
 
     def get_real_link(self, link):
         html = requests.get(url=link, headers=self.herders).text
-
         p = re.compile('window.location.href="(.*?)"', re.S)
         real_link = p.findall(html)[0]
         self.get_data(real_link)

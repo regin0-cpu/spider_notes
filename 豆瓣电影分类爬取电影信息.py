@@ -1,7 +1,7 @@
 import requests
 import time
 import random, re
-from day01.useragents import ua_list
+from useragents import ua_list
 import json
 import ssl
 

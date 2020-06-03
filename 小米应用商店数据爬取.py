@@ -7,7 +7,7 @@ import random
 
 from lxml import etree
 
-from useragents import ua_list
+##from useragents import ua_list
 
 
 class XiaoMi(object):

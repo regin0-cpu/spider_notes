@@ -1,5 +1,5 @@
 from urllib import request, parse
-from useragents import ua_list
+##from useragents import ua_list
 import time, random, re
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
